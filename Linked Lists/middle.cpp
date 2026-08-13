@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//optimal solution using fast and slow pointers
 class Node{
 public:
     int data;

@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//entering a new node, say 25 in any position
+
 class Node{
     public:
     int data;
@@ -29,7 +31,7 @@ int main(){
     cin>>position;
 
     Node* temp=head;
-    
+
     if(position == 1){
     newNode->next = head;
     head = newNode;
